@@ -1,0 +1,103 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+body{
+  width: 100%;
+  height: auto;
+  background-color: #eeeeee;
+  font-family: 'Bungee', cursive;
+  font-family: 'Lato', sans-serif;
+}
+
+#topo-principal{
+  width: 100%;
+  max-width: 1920px;
+}
+
+.tli-flex{
+  position: absolute;
+  left:50%;
+  right:50%;
+  margin-left:-700px;
+  width:550px;
+}
+
+#top-links-infos{
+  position: absolute;
+  width: 100%;
+  height:40px;
+  background-color: #ff6500;
+}
+
+#top-links-infos ul{
+  margin-top:8px;
+  margin-left: 50px;
+}
+
+#top-links-infos ul li{
+  display: inline-block;
+  padding-left: 50px;
+}
+
+#top-links-infos ul li a{
+  font-family: 'Bungee', cursive;
+  color:#fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#top-links-infos ul li a:hover{
+  color: #0042ff;
+  transition: all 0.3s linear;
+}
+
+a.date-time{
+  position: relative;
+  float: right;
+  margin-top:14px;
+  margin-right: 130px;
+  font-family: 'Bungee', cursive;
+  color:#fff;
+  font-size: 12px;
+  text-decoration: none;
+}
+
+#logo-menu-infos{
+  position: absolute;
+  margin-top:40px;
+  width: 100%;
+  height:130px;
+  background-color: #202020;
+}
+
+#logo-flex-area{
+  position: absolute;
+  left: 50%;
+  right:50%;
+}
+
+.logo{
+  margin-top:30px;
+  margin-left: -600px;
+}
+
+a.menu-modular{
+  position: absolute;
+  font-family: 'Bungee', cursive;
+  color:#fff;
+  font-size: 14px;
+  text-decoration: none;
+  padding: 10px 7px 10px 7px;
+  border:1px solid #fff;
+  margin-left:90px;
+  margin-top:45px;
+}
+
+a.menu-modular:hover{
+  color:#fff;
+  background-color: #ff6500;
+  border:1px solid #ff6500;
+  transition: all 0.3s linear;
+}
